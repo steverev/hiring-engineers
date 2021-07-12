@@ -162,8 +162,8 @@ For this section, I installed pip on my host, and pip installed datadog. I also 
 from datadog import initialize, api
 
 options = {
-    'api_key': '10f0a2c69bef1b67ad086092bdc15f63',
-    'app_key': '76531123e22758098a5d3a2db6c862cd28e3f5d4'
+    'api_key': 'xxxREDACTEDxxx',
+    'app_key': 'xxxREDACTEDxxx'
 }
 
 initialize(**options)
@@ -351,7 +351,7 @@ if __name__ == '__main__':
 
 **Bonus Question: What is the difference between a Service and a Resource?**
 
-A service is a collection of processes the perform the same job - "webapp", "database", etc.
+A service is a collection of processes that perform the same job - "webapp", "database", etc.
 
 A resource is a query to a service: e.g. for a "database" service, the actual SQL query itself, or for a "webapp" service, a handler function or URL "/home/user"
 
